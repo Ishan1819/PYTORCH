@@ -1,6 +1,6 @@
 import torch
 
-# Enable gradient tracking
+# Enabling gradient tracking
 x = torch.tensor(3.0, requires_grad=True)
 
 # Function y = x^2 + 2x

@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-# Define a simple model
+#  a simple model
 model = nn.Sequential(
     nn.Linear(10, 20),
     nn.ReLU(),
